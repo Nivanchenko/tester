@@ -13,6 +13,11 @@
 				<CommandName>Form.Command.ЗапуститьТестирование</CommandName>
 				<ExtendedTooltip name="ФормаЗапуститьТестированиеРасширеннаяПодсказка" id="75"/>
 			</Button>
+			<Button name="ФормаОчиститьРезультаты" id="78">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ОчиститьРезультаты</CommandName>
+				<ExtendedTooltip name="ФормаОчиститьРезультатыРасширеннаяПодсказка" id="79"/>
+			</Button>
 			<Button name="ФормаОбновить" id="76">
 				<Type>CommandBarButton</Type>
 				<CommandName>Form.Command.Обновить</CommandName>
@@ -323,6 +328,21 @@
 				</v8:item>
 			</ToolTip>
 			<Action>Обновить</Action>
+		</Command>
+		<Command name="ОчиститьРезультаты" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить результаты</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить результаты</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьРезультаты</Action>
 		</Command>
 	</Commands>
 </Form>
