@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<ChildItems>
+			<Button name="ФормаНовоеЗадание" id="65">
+				<Type>CommandBarButton</Type>
+				<DefaultButton>true</DefaultButton>
+				<CommandName>Form.Command.НовоеЗадание</CommandName>
+				<ExtendedTooltip name="ФормаНовоеЗаданиеРасширеннаяПодсказка" id="66"/>
+			</Button>
+			<Button name="ФормаЗапуститьТестирование" id="74">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.ЗапуститьТестирование</CommandName>
+				<ExtendedTooltip name="ФормаЗапуститьТестированиеРасширеннаяПодсказка" id="75"/>
+			</Button>
+			<Button name="ФормаОбновить" id="76">
+				<Type>CommandBarButton</Type>
+				<CommandName>Form.Command.Обновить</CommandName>
+				<Picture>
+					<xr:Ref>StdPicture.Refresh</xr:Ref>
+					<xr:LoadTransparent>true</xr:LoadTransparent>
+				</Picture>
+				<ExtendedTooltip name="ФормаОбновитьРасширеннаяПодсказка" id="77"/>
+			</Button>
+		</ChildItems>
+	</AutoCommandBar>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="60">
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="61"/>
+			<ChildItems>
+				<Table name="Задания" id="1">
+					<RowSelectionMode>Row</RowSelectionMode>
+					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<EnableStartDrag>true</EnableStartDrag>
+					<DataPath>Задания</DataPath>
+					<RowPictureDataPath>Задания.DefaultPicture</RowPictureDataPath>
+					<AutoRefresh>false</AutoRefresh>
+					<AutoRefreshPeriod>60</AutoRefreshPeriod>
+					<Period>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</Period>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<RestoreCurrentRow>false</RestoreCurrentRow>
+					<TopLevelParent xsi:nil="true"/>
+					<ShowRoot>true</ShowRoot>
+					<AllowRootChoice>false</AllowRootChoice>
+					<UpdateOnDataChange>Auto</UpdateOnDataChange>
+					<ContextMenu name="ЗаданияКонтекстноеМеню" id="2"/>
+					<AutoCommandBar name="ЗаданияКоманднаяПанель" id="3">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="ЗаданияРасширеннаяПодсказка" id="4"/>
+					<SearchStringAddition name="ЗаданияСтрокаПоиска" id="5">
+						<AdditionSource>
+							<Item>Задания</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ЗаданияСтрокаПоискаКонтекстноеМеню" id="6"/>
+						<ExtendedTooltip name="ЗаданияСтрокаПоискаРасширеннаяПодсказка" id="7"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="ЗаданияСостояниеПросмотра" id="8">
+						<AdditionSource>
+							<Item>Задания</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="ЗаданияСостояниеПросмотраКонтекстноеМеню" id="9"/>
+						<ExtendedTooltip name="ЗаданияСостояниеПросмотраРасширеннаяПодсказка" id="10"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="ЗаданияУправлениеПоиском" id="11">
+						<AdditionSource>
+							<Item>Задания</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="ЗаданияУправлениеПоискомКонтекстноеМеню" id="12"/>
+						<ExtendedTooltip name="ЗаданияУправлениеПоискомРасширеннаяПодсказка" id="13"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="ЗаданияПериод" id="14">
+							<DataPath>~Задания.Period~Задания.Период</DataPath>
+							<ContextMenu name="ЗаданияПериодКонтекстноеМеню" id="15"/>
+							<ExtendedTooltip name="ЗаданияПериодРасширеннаяПодсказка" id="16"/>
+						</LabelField>
+						<ColumnGroup name="ЗаданияГруппа1" id="70">
+							<ExtendedTooltip name="ЗаданияГруппа1РасширеннаяПодсказка" id="71"/>
+							<ChildItems>
+								<LabelField name="ЗаданияИнформационнаяБаза" id="20">
+									<DataPath>Задания.ИнформационнаяБаза</DataPath>
+									<ContextMenu name="ЗаданияИнформационнаяБазаКонтекстноеМеню" id="21"/>
+									<ExtendedTooltip name="ЗаданияИнформационнаяБазаРасширеннаяПодсказка" id="22"/>
+								</LabelField>
+								<LabelField name="ЗаданияПорт" id="35">
+									<DataPath>Задания.Порт</DataPath>
+									<ContextMenu name="ЗаданияПортКонтекстноеМеню" id="36"/>
+									<ExtendedTooltip name="ЗаданияПортРасширеннаяПодсказка" id="37"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+						<ColumnGroup name="ЗаданияГруппа2" id="72">
+							<ExtendedTooltip name="ЗаданияГруппа2РасширеннаяПодсказка" id="73"/>
+							<ChildItems>
+								<LabelField name="ЗаданияНачалоТестирования" id="67">
+									<DataPath>Задания.НачалоТестирования</DataPath>
+									<ContextMenu name="ЗаданияНачалоТестированияКонтекстноеМеню" id="68"/>
+									<ExtendedTooltip name="ЗаданияНачалоТестированияРасширеннаяПодсказка" id="69"/>
+								</LabelField>
+								<LabelField name="ЗаданияОкончаниеТестирования" id="29">
+									<DataPath>Задания.ОкончаниеТестирования</DataPath>
+									<ContextMenu name="ЗаданияОкончаниеТестированияКонтекстноеМеню" id="30"/>
+									<ExtendedTooltip name="ЗаданияОкончаниеТестированияРасширеннаяПодсказка" id="31"/>
+								</LabelField>
+							</ChildItems>
+						</ColumnGroup>
+						<LabelField name="ЗаданияРазультатТестирования" id="26">
+							<DataPath>Задания.РазультатТестирования</DataPath>
+							<ContextMenu name="ЗаданияРазультатТестированияКонтекстноеМеню" id="27"/>
+							<ExtendedTooltip name="ЗаданияРазультатТестированияРасширеннаяПодсказка" id="28"/>
+						</LabelField>
+						<CheckBoxField name="ЗаданияОшибки" id="32">
+							<DataPath>Задания.Ошибки</DataPath>
+							<CheckBoxType>Auto</CheckBoxType>
+							<ContextMenu name="ЗаданияОшибкиКонтекстноеМеню" id="33"/>
+							<ExtendedTooltip name="ЗаданияОшибкиРасширеннаяПодсказка" id="34"/>
+						</CheckBoxField>
+						<LabelField name="ЗаданияУИД" id="17">
+							<DataPath>Задания.УИД</DataPath>
+							<ContextMenu name="ЗаданияУИДКонтекстноеМеню" id="18"/>
+							<ExtendedTooltip name="ЗаданияУИДРасширеннаяПодсказка" id="19"/>
+						</LabelField>
+					</ChildItems>
+				</Table>
+				<Table name="Алгоритмы" id="38">
+					<UseAlternationRowColor>true</UseAlternationRowColor>
+					<EnableStartDrag>true</EnableStartDrag>
+					<DataPath>Алгоритмы</DataPath>
+					<RowPictureDataPath>Алгоритмы.DefaultPicture</RowPictureDataPath>
+					<AutoRefresh>false</AutoRefresh>
+					<AutoRefreshPeriod>60</AutoRefreshPeriod>
+					<Period>
+						<v8:variant xsi:type="v8:StandardPeriodVariant">Custom</v8:variant>
+						<v8:startDate>0001-01-01T00:00:00</v8:startDate>
+						<v8:endDate>0001-01-01T00:00:00</v8:endDate>
+					</Period>
+					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
+					<RestoreCurrentRow>false</RestoreCurrentRow>
+					<TopLevelParent xsi:nil="true"/>
+					<ShowRoot>true</ShowRoot>
+					<AllowRootChoice>false</AllowRootChoice>
+					<UpdateOnDataChange>Auto</UpdateOnDataChange>
+					<ContextMenu name="АлгоритмыКонтекстноеМеню" id="39"/>
+					<AutoCommandBar name="АлгоритмыКоманднаяПанель" id="40">
+						<Autofill>false</Autofill>
+					</AutoCommandBar>
+					<ExtendedTooltip name="АлгоритмыРасширеннаяПодсказка" id="41"/>
+					<SearchStringAddition name="АлгоритмыСтрокаПоиска" id="42">
+						<AdditionSource>
+							<Item>Алгоритмы</Item>
+							<Type>SearchStringRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="АлгоритмыСтрокаПоискаКонтекстноеМеню" id="43"/>
+						<ExtendedTooltip name="АлгоритмыСтрокаПоискаРасширеннаяПодсказка" id="44"/>
+					</SearchStringAddition>
+					<ViewStatusAddition name="АлгоритмыСостояниеПросмотра" id="45">
+						<AdditionSource>
+							<Item>Алгоритмы</Item>
+							<Type>ViewStatusRepresentation</Type>
+						</AdditionSource>
+						<ContextMenu name="АлгоритмыСостояниеПросмотраКонтекстноеМеню" id="46"/>
+						<ExtendedTooltip name="АлгоритмыСостояниеПросмотраРасширеннаяПодсказка" id="47"/>
+					</ViewStatusAddition>
+					<SearchControlAddition name="АлгоритмыУправлениеПоиском" id="48">
+						<AdditionSource>
+							<Item>Алгоритмы</Item>
+							<Type>SearchControl</Type>
+						</AdditionSource>
+						<ContextMenu name="АлгоритмыУправлениеПоискомКонтекстноеМеню" id="49"/>
+						<ExtendedTooltip name="АлгоритмыУправлениеПоискомРасширеннаяПодсказка" id="50"/>
+					</SearchControlAddition>
+					<ChildItems>
+						<LabelField name="АлгоритмыПорядок" id="54">
+							<DataPath>Алгоритмы.Порядок</DataPath>
+							<ContextMenu name="АлгоритмыПорядокКонтекстноеМеню" id="55"/>
+							<ExtendedTooltip name="АлгоритмыПорядокРасширеннаяПодсказка" id="56"/>
+						</LabelField>
+						<LabelField name="АлгоритмыАлгоритмТестирования" id="57">
+							<DataPath>Алгоритмы.АлгоритмТестирования</DataPath>
+							<ContextMenu name="АлгоритмыАлгоритмТестированияКонтекстноеМеню" id="58"/>
+							<ExtendedTooltip name="АлгоритмыАлгоритмТестированияРасширеннаяПодсказка" id="59"/>
+						</LabelField>
+						<LabelField name="АлгоритмыКоличество" id="62">
+							<DataPath>Алгоритмы.Количество</DataPath>
+							<ContextMenu name="АлгоритмыКоличествоКонтекстноеМеню" id="63"/>
+							<ExtendedTooltip name="АлгоритмыКоличествоРасширеннаяПодсказка" id="64"/>
+						</LabelField>
+						<LabelField name="АлгоритмыУИД" id="51">
+							<DataPath>Алгоритмы.УИД</DataPath>
+							<ContextMenu name="АлгоритмыУИДКонтекстноеМеню" id="52"/>
+							<ExtendedTooltip name="АлгоритмыУИДРасширеннаяПодсказка" id="53"/>
+						</LabelField>
+					</ChildItems>
+				</Table>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.РаботаСТестами</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Задания" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Задания</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.ЗаданияТестирования</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+		<Attribute name="Алгоритмы" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Алгоритмы</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:DynamicList</v8:Type>
+			</Type>
+			<Settings xsi:type="DynamicList">
+				<ManualQuery>false</ManualQuery>
+				<DynamicDataRead>true</DynamicDataRead>
+				<MainTable>InformationRegister.СоставЗаданийТестирования</MainTable>
+				<ListSettings>
+					<dcsset:filter>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>dfcece9d-5077-440b-b6b3-45a5cb4538eb</dcsset:userSettingID>
+					</dcsset:filter>
+					<dcsset:order>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>88619765-ccb3-46c6-ac52-38e9c992ebd4</dcsset:userSettingID>
+					</dcsset:order>
+					<dcsset:conditionalAppearance>
+						<dcsset:viewMode>Normal</dcsset:viewMode>
+						<dcsset:userSettingID>b75fecce-942b-4aed-abc9-e6a02e460fb3</dcsset:userSettingID>
+					</dcsset:conditionalAppearance>
+					<dcsset:itemsViewMode>Normal</dcsset:itemsViewMode>
+					<dcsset:itemsUserSettingID>911b6018-f537-43e8-a417-da56b22f9aec</dcsset:itemsUserSettingID>
+				</ListSettings>
+			</Settings>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="НовоеЗадание" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новое задание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Новое задание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НовоеЗадание</Action>
+		</Command>
+		<Command name="ЗапуститьТестирование" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить тестирование</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Запустить тестирование</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗапуститьТестирование</Action>
+		</Command>
+		<Command name="Обновить" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Обновить</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Обновить</Action>
+		</Command>
+	</Commands>
+</Form>

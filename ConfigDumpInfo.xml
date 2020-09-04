@@ -1,0 +1,355 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.9">
+	<ConfigVersions>
+		<Metadata name="Catalog.АлгоритмыТестирования" id="e68cb5dc-20cf-4cdb-ae66-933fe5508e5e" configVersion="5edeb4e38e2728429cd8d18edf5c92ca00000000">
+			<Metadata name="Catalog.АлгоритмыТестирования.Attribute.Алгоритм" id="deacce65-fb5a-48ed-b958-f174d623eb39"/>
+		</Metadata>
+		<Metadata name="Catalog.АлгоритмыТестирования.Form.ФормаЭлемента" id="0eb0e16b-399b-467d-a7dc-a31b32f71893" configVersion="67a5fb3176382d4297bab790c6a67c9100000000"/>
+		<Metadata name="Catalog.АлгоритмыТестирования.Form.ФормаЭлемента.Form" id="0eb0e16b-399b-467d-a7dc-a31b32f71893.0" configVersion="2cf79e4f8bf91843a315ddee8db074c100000000"/>
+		<Metadata name="Catalog.ИнформационныеБазы" id="b885d5d4-ea3f-439a-ad01-d1d40cab5172" configVersion="28731d049f01cb49adae90d36388bfa100000000">
+			<Metadata name="Catalog.ИнформационныеБазы.Attribute.ИмяБазы" id="0fdb03e5-da71-42c1-8f36-6a35a0d70b9d"/>
+			<Metadata name="Catalog.ИнформационныеБазы.Attribute.Пароль" id="2ae81853-3943-4847-b21b-49381920f0c1"/>
+			<Metadata name="Catalog.ИнформационныеБазы.Attribute.Пользователь" id="5549a159-4772-4b6a-a66d-d4d4db9b6c8f"/>
+			<Metadata name="Catalog.ИнформационныеБазы.Attribute.ИмяСервера" id="df1163dd-33a7-4a86-b64e-4b474cddc2ea"/>
+		</Metadata>
+		<Metadata name="Catalog.ИнформационныеБазы.Form.ФормаЭлемента" id="1eeb4020-43a3-49e0-b74d-e8c6f696849d" configVersion="ac79977e44c0f04fa975d33127f1201400000000"/>
+		<Metadata name="Catalog.ИнформационныеБазы.Form.ФормаЭлемента.Form" id="1eeb4020-43a3-49e0-b74d-e8c6f696849d.0" configVersion="bdeac14a35146144ad8e046c1c7c695900000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияСервер" id="0dd2d9a2-b21a-4d27-90fc-e8ec1c02d782" configVersion="b599c48df430d444a6289ffc7d45ac5d00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияСервер.Module" id="0dd2d9a2-b21a-4d27-90fc-e8ec1c02d782.0" configVersion="3e23a79c0752c345b91e45bd1d23e67800000000"/>
+		<Metadata name="CommonModule.ТестированиеПриложенийКлиент" id="a17b8784-5a6a-4f04-ac0c-f0bd08f6d181" configVersion="b0335eeceddd95458268cd1bdffaa4d400000000"/>
+		<Metadata name="CommonModule.ТестированиеПриложенийКлиент.Module" id="a17b8784-5a6a-4f04-ac0c-f0bd08f6d181.0" configVersion="d8b61825888d6c4889348e4ff8b7160c00000000"/>
+		<Metadata name="CommonModule.ТестированиеПриложенийСервер" id="7172d8ac-ddde-4a51-9dd6-c96840b053e7" configVersion="0603809a0ef8b64a9ae1ccbc1d60321700000000"/>
+		<Metadata name="CommonModule.ТестированиеПриложенийСервер.Module" id="7172d8ac-ddde-4a51-9dd6-c96840b053e7.0" configVersion="77516a5802870a418f811898f14a91e400000000"/>
+		<Metadata name="Configuration.ТестированиеМИНИ" id="2e371d38-8b39-49b0-b901-4c24d539b788" configVersion="f117e7f8cd62ed4f8208ab032c4e890c00000000"/>
+		<Metadata name="Configuration.ТестированиеМИНИ.HomePageWorkArea" id="410469ae-feb4-45a2-a7fc-83aaf624d0e8.8" configVersion="817e5b57de1cb945a39c4d93a0ffb6fd00000000"/>
+		<Metadata name="Configuration.ТестированиеМИНИ.ManagedApplicationModule" id="410469ae-feb4-45a2-a7fc-83aaf624d0e8.6" configVersion="13471776c357c24a9f89b81671e476b200000000"/>
+		<Metadata name="Configuration.ТестированиеМИНИ.OrdinaryApplicationModule" id="410469ae-feb4-45a2-a7fc-83aaf624d0e8.0" configVersion="315b610add660a40837b41a571bda1b700000000"/>
+		<Metadata name="Configuration.ТестированиеМИНИ.SessionModule" id="410469ae-feb4-45a2-a7fc-83aaf624d0e8.7" configVersion="62055b846ff3a644a86e410e522ee2eb00000000"/>
+		<Metadata name="Constant.ВремяОжиданияЗапускаКлиента" id="dd475854-d5fd-4176-9fef-a56b6b7943e9" configVersion="ef5f88ccbc7cea41b4a5382f05efd5f900000000"/>
+		<Metadata name="Constant.ИсполняемыйФайл1С" id="471ea438-fb35-468c-84cc-619e12b67fcc" configVersion="a03842646e043648bf918ca4e9f354fb00000000"/>
+		<Metadata name="Constant.МенеджерТестированияБаза" id="052f30f9-7e1f-431f-b293-672459766839" configVersion="d300299b1f33ef4da5d974556aade4f900000000"/>
+		<Metadata name="Constant.МенеджерТестированияПароль" id="642c51e7-6428-466a-acf2-0def62797335" configVersion="0565f1f36e44024e8a7093b1a68c593f00000000"/>
+		<Metadata name="Constant.МенеджерТестированияПользователь" id="cd376b79-b8ef-4eec-a934-76970a4d5866" configVersion="7d4c81e2f54e6f4e8145f3b5040fe9b900000000"/>
+		<Metadata name="Constant.МенеджерТестированияСервер" id="21c58a8f-b2b0-4b1a-ba37-44fac8683660" configVersion="97f081d9d43c1942aee17c210cfc768300000000"/>
+		<Metadata name="DataProcessor.UILogToScript" id="2044556a-9c7d-42a9-aa13-962aad246e2c" configVersion="bb38902002bd7340bd31175a4f3b28f500000000">
+			<Metadata name="DataProcessor.UILogToScript.Attribute.ScriptVariant" id="20f1d601-ae3f-4186-a338-fd4550206678"/>
+			<Metadata name="DataProcessor.UILogToScript.Attribute.LastProcessedControl" id="3d1d6840-3b42-4a05-97a4-2a044fee23e8"/>
+			<Metadata name="DataProcessor.UILogToScript.Attribute.SplitScriptIntoProcedures" id="589423bd-3f9c-4695-bb94-b83033845a27"/>
+			<Metadata name="DataProcessor.UILogToScript.Attribute.GenerateClientConnectionScript" id="705787ca-610a-4035-bce3-c2ddb3fa239a"/>
+			<Metadata name="DataProcessor.UILogToScript.Attribute.LastProcessedCommand" id="74fdf6f6-8bb8-4dc4-ac30-e04af36554bc"/>
+			<Metadata name="DataProcessor.UILogToScript.Attribute.FormBeingProcessed" id="843ce150-732d-4938-beea-4d70c5b70b5a"/>
+			<Metadata name="DataProcessor.UILogToScript.Attribute.CreatedProcedures" id="8ec4b72e-e063-4f3f-a314-fad555aaa735"/>
+			<Metadata name="DataProcessor.UILogToScript.Attribute.ObjectSearch" id="a2fcee94-f893-4885-bb4e-20b2e31a88f9"/>
+			<Metadata name="DataProcessor.UILogToScript.Attribute.ConversionVariant" id="b7554e7a-ba1d-479e-8680-c8006a9e6a6a"/>
+			<Metadata name="DataProcessor.UILogToScript.Attribute.WindowBeingProcessed" id="baea3788-a727-47ff-b51d-0dfb1fa0ca34"/>
+			<Metadata name="DataProcessor.UILogToScript.Attribute.WindowClosed" id="c65d92d6-4445-498b-ab15-5bab338b57dc"/>
+			<Metadata name="DataProcessor.UILogToScript.Attribute.MainProcedureName" id="ce94d553-d04b-4f19-b0cf-0fd56266af54"/>
+			<Metadata name="DataProcessor.UILogToScript.Attribute.GetFullHierarchy" id="fc1d79c0-56c8-4c8a-be81-0b65c3b35ec2"/>
+		</Metadata>
+		<Metadata name="DataProcessor.UILogToScript.Form.DefaultForm" id="b8b325ef-3a01-4500-953e-d2b96f284157" configVersion="a5fb6f2a15ba72458f59f37cf1bed5f000000000"/>
+		<Metadata name="DataProcessor.UILogToScript.Form.DefaultForm.Form" id="b8b325ef-3a01-4500-953e-d2b96f284157.0" configVersion="ab62bc7186932d45acf2bbd3bd2ce8ce00000000"/>
+		<Metadata name="DataProcessor.UILogToScript.Form.DefaultForm.Help" id="b8b325ef-3a01-4500-953e-d2b96f284157.1" configVersion="7beeace43be6a747aca7ff95be33018e00000000"/>
+		<Metadata name="DataProcessor.UILogToScript.Help" id="2044556a-9c7d-42a9-aa13-962aad246e2c.1" configVersion="18f61bf767c1d04690035f0d16d385c300000000"/>
+		<Metadata name="DataProcessor.UILogToScript.ObjectModule" id="2044556a-9c7d-42a9-aa13-962aad246e2c.0" configVersion="2813121d54f335409b8f4c96e188479600000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation" id="b7c83f94-f33e-4da1-afc4-c38d1e0d918c" configVersion="b4fd4c9169baeb4cb2980d0700bb8a6e00000000">
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИмяТекущейСборки" id="013d421d-1a05-494b-a20b-39042a28fcfd"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоФайлКурсораМышки" id="01d682d1-3c53-4058-9a75-16b782221776"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДелатьЛогВыполненияСценариевВЖР" id="0289709e-d09d-4ae3-8e91-cb039e008662"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СобиратьДанныеОПроцессахОС" id="028ebc46-0422-4c1f-93a2-da951f39c3a8"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ВыгружатьСтатусВыполненияСценариевВФайл" id="02a34175-958a-4cf6-9785-9cc73ffeeb99"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИспользоватьДанныеТекущейФормыПриПодбореШагов" id="04a0d0ba-e651-4a8b-bbef-c8cbbca04f7d"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.DebugLog" id="05bfb715-9288-4b87-adbb-dc394cfe21ad"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗапускатьКлиентТестированияСМаксимизированнымОкном" id="062fac23-0ee7-4427-84f5-6987c0a84b0a"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КомандаЗапускаБраузера" id="0c668579-e16d-473c-a539-a76cd2da5fcf"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КомандаЗаписиВидеоВыполненияТестов" id="0d33bf9f-556c-4ca0-8ab3-aa3f86496e31"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогВыгрузкиСППР" id="0d82c63e-1d12-4a50-9d62-235c8d56cb0f"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗагрузкаФичПриОткрытии" id="0eafed33-a134-4f55-b472-3eb73684c100"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ОбновлятьДеревоПриНачалеВыполненияСценария" id="102de872-db26-49d0-8831-3afb2b24394c"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогФич" id="1248d1d6-f91e-4a5f-97b6-46e4d48aa426"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогИнструментов" id="13046aca-b33c-4435-b736-44bd900e8d98"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоКэшироватьФайлыTTS" id="133d1c27-2e3a-41b5-8b4f-c8a0ae75fbd0"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоЗаменитьСлайдФинал" id="14a249eb-8460-489b-b9ef-453ee1c2edb8"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДиапазонПортовTestclient" id="17188653-ed0c-4672-bd1f-4f01f3898d39"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоДелатьНаложениеTTS" id="1b05e4dc-d3f3-4db6-9ed6-17e948af1655"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИмяФайлаВнешнихКомандФреймворка" id="1bd68a7f-c40e-4fbc-b652-1cd8c18e4486"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КоличествоШаговПриДвиженииМышкиVanessaExt" id="1c4141cc-c83b-4ed5-8f18-de0c7f165458"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоПутьКСлайдуЗаголовок" id="1dc7e8e5-2ca5-4d9f-8f1d-1147e57df589"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоYandexTTSOauthToken" id="1e06e2ac-44d7-4577-a9f5-e334509a53a6"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогВыгрузкиCucumberJson" id="1f79a2b1-a7fd-4b0e-ab13-cb997703d943"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СмещениеПоВертикалиДвиженияМышкиVanessaExt" id="1ff019ea-0a66-466e-a224-0d7e8e2af06e"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КомандаСделатьСкриншот" id="20371760-fed8-4ccc-8549-d8fa5bdc3842"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СтрокаПодключенияКБазе" id="22be4777-7b86-411b-bdf3-c57e196d6df3"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогВыгрузкиИнструкцийВидео" id="232037f4-6935-4cbb-b458-145de2c1fd0f"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КоличествоПопытокВыполненияДействия" id="255ffedf-4c1d-4ef0-a2aa-8ff7ca467324"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СоздаватьЗакоментированныйКодДляПереиспользуемыхПроцедур" id="260d4c6d-de55-4638-b304-609476bac030"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИспользоватьВнешнююКомпонентуДляСкриншотов" id="2842a0f9-dcbc-4d74-8fd6-ef1ea2e68704"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИмяФайлаЛогВыполненияСценариев" id="28873b45-db16-4213-89d0-2f9ed5c6f5bb"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СобиратьДанныеОСостоянииВсехФормПриОшибке" id="2a993ca6-bdbc-4e38-b2b6-adce7320e276"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СпособСнятияСкриншотовВнешнейКомпонентой" id="2c5d6dbb-1c08-4fc0-9674-a6859da7ed1e"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоКаталогДляВременныхФайлов" id="2cacccc6-7a16-4ee2-a542-031a658f4ca8"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоИнструмент" id="2e5635b3-2fab-4e45-9454-b7cae4567771"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоСкоростьПроизношения" id="2eb1e763-980e-4ebc-a700-e291fb4475fc"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоОтключитьСлайдСЗаголовкомФичи" id="3098d5f6-42e9-438c-8bda-f05f5c0b7610"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИДРаннера" id="327eb0c1-f007-482d-af04-57d5e3d05329"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.УровеньОтчета1" id="33d55b48-171f-4731-a835-642fcaabcf11"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоЭкранШирина" id="34044de3-d41d-474f-8bfd-2fdf21d0aaec"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПаузаПриОткрытииОкна" id="361929be-ad16-4566-b923-43272cb79a61"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ВыполнитьСценарииПослеЗагрузкиФичОдинРаз" id="37f6ba60-6828-4e97-b98b-cea5f3947957"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоAmazonДвижок" id="384c1c81-4c09-4963-8c94-c96a61069186"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИдетВыполнениеСценариев" id="3ac19ed6-39d5-46fc-9f01-f47effda41dd"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДелатьСообщенияТранслитом" id="3be85ca8-ac29-496e-9ec7-a1b258b020be"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогВыгрузкиИнструкцийMarkdown" id="3c587afc-6eab-47bc-a583-afb26533b2e5"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.РежимВыполненияОдногоШага" id="3c64dd24-b990-4d63-b9c6-4b9b027472b8"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоAmazonСекретныйКлюч" id="3d034dc5-32bd-4da0-aa36-ad936aa770dc"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоОтключитьСлайдФинал" id="3e625eac-f6bc-41de-b12c-1e408e075a7a"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПрикладыватьКОтчетуAllureДанныеОПроцессахОС" id="3f969c90-0eb6-4aa2-8106-ac4e8e594cac"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗапускатьТестКлиентВРежимеОтладки" id="40b1a642-6565-46d5-9eda-554b325627a0"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогиСкриптовSikuliX" id="43c06820-8239-4ab3-93d7-717e82585256"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ВерсияПоставки" id="43cd1bf2-24ca-478e-8cef-c393fcabb42c"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоПутьКСлайдуФинал" id="43da71b2-c9f7-4630-8bc3-38d3f03178a1"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоЭкранСверху" id="43f38099-1f37-4ecb-b79a-35043ed2ae76"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ТаймаутЗапуска1С" id="444c19dc-031b-4574-9456-46d0bbab779c"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.АдресПользовательскихНастроек" id="45c40a97-c09b-484f-a6d6-192c3323fbea"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогВыгрузкиAllure" id="460da161-c609-4913-a9d5-b774468cd6cb"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СгенерированныйXML" id="465ba1b5-af91-42ac-bb9d-275b4b1cafab"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ВыводитьВЛогВыполнениеШагов" id="497c62b3-6a58-42ef-ad40-dfe46bb17edf"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ГенерироватьУФ" id="4a613abb-7ca7-4311-a631-b5e3612d6162"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПодсвечиватьКликМышкиВБраузереVanessaExt" id="4cfdc9bb-196a-4bd2-924d-40e7250bf1fd"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КоэффициентМасштабированияЭкрана" id="4d1eacb1-68fd-4d1c-97dd-185aac940b03"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.GenerateEpf" id="4dd217ee-9856-4b27-8963-53ea514e5b29"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СоздаватьИнструкциюВидео" id="52cd35c4-2333-4036-8074-7d10fdd4d65c"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.АдресОтладчика" id="533a26ed-ea27-4523-a57d-023be95a6d58"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоДобавитьМузыкуКСлайдуФинал" id="545b7b35-c1c1-47b2-bb2c-4fa1e275a71a"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.РежимВыполненияДанногоСценарияСТекущегоШагаСПродолжением" id="54d6b702-6740-4593-ac47-256d77cf69ed"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СобиратьДанныеОСетевыхСоединениях" id="56803611-173b-44eb-a4b9-80a70ff06f9b"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоГруппаШаговКакШаг" id="595f587b-cb7f-4e00-a9cd-f0d80b0ab64d"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИдетЗаписьВыполненияТестов" id="5b79548b-5af2-4473-9fec-239f7fe9a83f"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоПеремещатьКурсорМышкиКАктивномуЭлементуФормы" id="5bc0f8c3-6c92-4884-9e98-94dc1de82d50"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДелатьОтчетВФорматеjUnit" id="5bea373e-650c-458b-8cc3-0b84e7f55063"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоКомандаНачатьЗаписьВидео" id="5dc7f2ff-a66a-419c-a41a-29254157b8c4"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоФормироватьИнструкциюТипВидео" id="5fce4446-138d-4ff7-a171-52a901fc38f4"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоКэшВидеоВставок" id="601ab86c-492c-4e85-829e-133ad3da9864"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДелатьОтчетВФорматеАллюр" id="60ba8002-c996-4811-bb24-8b8857299dee"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоКоличествоКадров" id="627ed60b-0020-4827-8428-521e11a1abbb"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоЭкранСлева" id="6524d0d8-43de-42be-b186-c303820afeb0"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогДляЗаписиВидеоВыполненияТестов" id="660128ba-499d-4c96-ae0f-f32b964110b8"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДобавлятьПриНакликиванииМетаИнформацию" id="664fc728-7c84-4e28-8999-8bd8528e1bdd"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИмяКаталогаЛогОшибок" id="66e73b59-4e52-4a5c-95e9-af015dc641a1"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СписокТеговОтбор" id="67164642-7fbb-446d-b627-4bbec5c301c3"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПоказыватьНомерСтрокиДереваПриВозникновенииОшибки" id="677c400c-bbcc-4a89-a0bf-eb564f73eac5"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоAmazonКлючДоступа" id="67ac1fad-7ad5-4015-a4f0-c9a4e727ac2a"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПрикладыватьКОтчетуAllureДанныеОСостоянииАктивнойФормы" id="6a08e36b-87e9-4c01-8436-08f003685aa6"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ТегTreeВключенПоУмолчанию" id="6aac55e7-907d-41ee-893d-85360c6c5b64"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоYandexTTSИдентификаторКаталога" id="6b4d6d3c-4b03-4e60-8b4a-e35fb78186e6"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИнтервалВыполненияШага" id="6cb9eb5b-9834-44b7-b490-6d39c9ab9130"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИспользоватьБраузерПлюсWebSocket" id="70107c0b-26b1-4b47-b7ee-072097719a66"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоИмяTTS" id="70266db4-16e8-4988-b997-152f5cdce0ff"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КоличествоКадровВидеоВыполненияТестов" id="73b4f953-0594-4d3b-91ea-e81c27833712"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗавершитьРаботуСистемыПослеВыполненияВсехСценариев" id="7490bebc-80b3-4046-ad04-96ba59252a05"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.АдресДанныеОбОшибке" id="7667a96b-b4d5-42dd-966a-809732455e3d"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоДобавлятьСубтитры" id="7675fd58-17c3-45fd-b6e1-8989a7a81424"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.УровеньОтчета2" id="7811f0ec-f571-42c3-8f7a-9c3fa131a0f0"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ТаймаутДляАсинхронныхШагов" id="78135e9c-0557-4652-b62e-f06a9749505d"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЭмулироватьВводКлавиатурыVanessaExt" id="7870c6e7-acf1-46a4-9d93-055e1f39554f"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ВыполнитьОбработкуПриОткрытии" id="7a550c38-36c2-485f-b9f5-866b70e8aa29"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоФормироватьИнструкциюТипHTML" id="7a6c55b6-a628-4b8a-a3c9-2949c21578f7"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.текЗначениеОперации" id="7b4cadc5-8c6d-4f4b-ab3c-44395275afe7"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПроверкаРаботыVanessaAutomationВРежимеTestClient" id="7bd6467b-8fd5-4ec5-82b5-7470ba5f322c"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ТемаРедактораVanessaEditor" id="7cf5d47a-fe39-40bb-a011-1b85d8820d5e"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ВыполнитьСценарииПослеЗагрузкиФич" id="7d059a49-658a-4af7-9749-d36299230bad"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДелатьОтчетВоВнутреннемФормате" id="7d63373f-6a4a-4900-89d6-0cd45ef22cad"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СоздаватьИнструкциюMarkdown" id="7eff7d4a-86fe-4164-b21c-414ae25803e4"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоAmazonЯзык" id="8164d014-ff65-4cef-a104-b7e122e6cbb0"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ОстановкаПриВозникновенииОшибки" id="82396c19-d212-45d0-a6c9-6721b573e40e"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДелатьЛогВыполненияСценариевВТекстовыйФайл" id="8251dbcf-7681-47f7-9207-c9c2fbac9b97"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИгнорироватьОшибкиПоискаЭлементовВБраузере" id="83829f99-b5cc-46e3-9a9a-ba9d1b283434"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КлючиОтладки" id="840a1222-1134-4e9c-8b6b-3e6b43832313"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогИсходников" id="8419ead2-4a07-439b-8289-c8ddb757d712"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ВерсияПлатформыДляГенерацииEPF" id="88549973-9731-4050-9481-35934b3b28b3"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоПутьКДвижкуTTS" id="89667bd5-e182-490a-ba14-6425b0a785f9"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоYandexTTSГолос" id="898704f7-579d-4a6c-824a-2df08a3f5f8f"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ГруппировкаTestSuites" id="898e0d3c-f588-4396-b5cb-ecbbbeb29acc"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИскатьЭлементыФормыПоИмени" id="89e83dae-c43d-46fe-9b42-89e480273b8f"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СоздаватьОбластиПриГенерацииКода" id="8a283e0f-869c-4fcd-900f-3dd5d76d573b"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДеревоТестов" id="8b899eb3-1e10-4554-932c-57d42703b615"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДелатьОтчетВФорматеСППР" id="8d9c572b-0707-4d40-b897-d568e7bec14b"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПрикладыватьКОтчетуAllureДанныеОЗначенияхПеременных" id="8eb7ba97-af43-4f81-a56a-92412a049cd0"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.БезопасноеВыполнениеШагов" id="8ed321d6-bf3c-446f-90e9-76770532f6f9"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогиБиблиотек" id="8f038ea1-e2cb-4d4e-85e5-de99851c076e"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоЭмулироватьДвиженияМышки" id="90cd46b0-1d0a-4e65-92fa-18cd7748d3d3"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПрикладыватьКОтчетуAllureДанныеОСетевыхСоединениях" id="917fc650-cf80-4d4f-85e8-b228027d0ec7"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоТипОзвучкиTTS" id="9447e65d-519f-4dec-9155-698d36e2a3e0"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.УровеньОтчета3" id="95487883-f187-40d6-a398-b4cb4907bc73"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоПоказыватьКурсорМыши" id="96e430f4-debf-4154-acc3-65ad06bc6ef5"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ТекстСообщенийПользователю" id="992aa7c4-4d9d-4dba-97e0-828dd4f87ab2"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоДобавитьМузыкуКСлайдуЗаголовок" id="9acfc5e2-a8bf-43e5-aefb-4d32347a5f86"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоПодсвечиватьАктивныеЭлементыФорм" id="9b037573-0482-46b4-ae39-d6f5088b6bbb"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СмещениеПоГоризонталиДвиженияМышкиVanessaExt" id="9b2e7d24-172b-4afe-a252-67d72aebcba4"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДополнительныеПараметры" id="9d1a9ae7-2bb9-49ab-a7c6-7bbecc373cd4"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СоздаватьИнструкциюHTML" id="9eb13fb7-f8be-4967-8ce0-4884df5a4979"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоКомандаFFmpeg" id="9f4d8881-2be6-4071-b900-8d5e60a31f70"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогПроекта" id="9fc46fa6-3d72-407c-9604-0c94d4618802"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДелатьСкриншотПриВозникновенииОшибки" id="a0413348-0fed-41ea-8cf3-7827976027f3"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоКэшироватьВидеоВставки" id="a0684bca-4bab-4cd7-bb9f-4df3da3da4a0"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоЗаменитьСлайдЗаголовок" id="a0ebc49a-8081-4dfa-bbd8-1007641029e5"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИспользоватьSikuliXСервер" id="a1d08ef5-876b-41a0-b409-84a7b0036ba1"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПоставщикПользовательскихНастроек" id="a3048a2b-322b-43dc-86be-c9eedba28f19"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ВыполнениеСценарияИзОбработкиОповещения" id="a32a4856-15cc-43d6-80b7-6ade69a5f145"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоФайлВодянойЗнак" id="a3380669-dd3e-4f03-ae33-1ee5d43239f5"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДобавлятьКИмениСценарияУсловияВыгрузки" id="a489e1c3-cc1e-4433-b2a3-01a3fb90ade2"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДелатьОтчетВФорматеCucumberJson" id="a5258f3c-c615-480e-89b3-942210833a6b"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогДляГенерацииКартинок" id="a844a161-5fcb-4166-b29f-d25adfd50d88"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоЭкранВысота" id="a853027a-4bf7-4379-aa68-125c412e7576"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоYandexTTSЭмоция" id="aae17974-900c-4617-90ad-9e4f1fb5eab0"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоФормироватьИнструкциюТипMarkdown" id="ab548980-e681-4795-923e-c32924cc528e"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СобиратьДанныеОСостоянииАктивнойФормыПриОшибке" id="ad87a9d5-bb7e-4eac-8fad-b6694aa2cf71"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоСкрытьСлужебныеОкна" id="ad889273-a04c-49c1-b10b-5ece0bfd77e7"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоПроцентУскорения" id="aebb8a97-160f-4d69-9979-ca6fca633049"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЕстьПоддержкаФункцияРазложитьСтрокуВМассивПодстрок" id="afef7ef4-0d3b-47ad-abe2-61e21f02c215"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоКомандаConvert" id="b1a9ac5e-423c-409c-a779-4251bb7f5af5"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.РежимВыполненияСценарияСВыбранногоШагаССохранениемКонтекстов" id="b1cff4d7-c841-4c7c-b690-f088f0440491"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоКаталогМузыки" id="b2654bc3-2820-48c6-97d6-8f4e023137f3"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИнтервалВыполненияШагаЗаданныйПользователем" id="b2ac6d56-9033-42b5-b64a-c9af0dc62ce3"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ТипыПлагинов" id="b7365ed3-2c3d-42ec-a7d3-b16147f5ac44"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СниматьСкриншотКаждогоОкна1С" id="b7cefb3f-7a51-4328-8c1c-26ddf8ae2903"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СгенерированныйСценарий" id="b81fdd5d-651e-4768-b17b-c7c88064a8e1"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КомандаОткрытияФичиВТекстовомРедакторе" id="b8bf823c-f1b1-49f0-92be-cbe0b213df5a"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СгенерированныйКод" id="b9d60bc5-61d1-479d-9260-cfe574728063"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗакрытьФормуПослеВыполненияОбработки" id="bc9e4528-f238-4a32-a322-0ded368253ca"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ОстановитьВыполнениеШагов" id="bddc86e6-d2e9-4b9a-a92e-015980d2c831"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоЭмулироватьВводСКлавиатуры" id="bed4f74e-c1c3-4154-8139-9798f5341cea"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПриравниватьPendingКFailed" id="bf68bd90-89f1-4b85-bd57-81dd95821eb0"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПодключитьВнешниеОбработкиДляОтладки" id="c09d1e67-5742-415e-b9ce-4f315bb7f8e8"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписыватьВидеоВыполненияТестов" id="c2ca09d2-6a18-4902-82ec-78afba2d78f0"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ВыводитьТекстМодуляВместоПерегенерацииEPF" id="c41105ef-8c8d-4cfe-aa90-50c875ba808e"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПрикладыватьКОтчетуAllureЖурналРегистрацииВыполненияСценария" id="c5c9b2b4-9b37-4b59-9e30-d06f8fbb7905"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СписокТеговИсключение" id="c62ae8e3-c76b-402d-8ac4-7220e83d541c"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.Плагины" id="c63f45d7-1e1e-49ee-bb9e-7a93eb3d6e3f"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогВыгрузкиJUnit" id="c75f2681-524c-4f0a-ab16-22c1f58dd0ff"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоПодсвечиватьНажатияМышки" id="ca146604-9738-4798-bea9-9f876c02403e"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоСловарьЗамен" id="cb540838-5ba3-4b52-9f05-c27db709ebf9"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогВыгрузкиСкриншотов" id="cd4c849d-16de-4574-8d35-dc45da3b4bb9"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПоказыватьСтрокиПодсценариевVanessaEdittor" id="d287ac34-741f-403e-8913-5fd7ee2a3475"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ОбновлятьСтатистикуВДереве" id="d2cf275b-ddd4-4ef3-8ac1-8aaf9d5346b2"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.РежимВыполненияДанногоСценарияСТекущегоШага" id="d32c4941-093b-46b2-b0f5-d71053e6e5b4"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогВыгрузкиAllureБазовый" id="d3501955-04da-4140-9209-0898c282427a"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИспользоватьКомпонентуVanessaExt" id="d37f3baa-358c-4b04-b1b7-775d216bcc97"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ДелатьЛогОшибокВТекстовыйФайл" id="d3c3bdd3-4e31-4ccc-9c4d-42808b5ef96e"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ВыполнятьШагиАссинхронно" id="d3e90876-ed13-418b-8adf-61b9879875ae"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЯзыкГенератораGherkin" id="d56bcfbb-9446-4aa4-9591-f7d13f90c923"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИспользоватьРедакторVanessaEditor" id="d5ca2d84-8e1c-4af6-8ef0-4a8591cfe6d6"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоYandexTTSЯзык" id="d60919ce-b8f1-40e5-b031-f1d8c2005cdb"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЭмулироватьДвиженияМышкиVanessaExt" id="d6117192-36bf-4807-878c-db4fb3b070cf"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоAmazonГолос" id="d6783b19-bb4b-4fb7-9273-440632167c68"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.РезультатУсловия" id="d768e8fd-3e59-4a85-b810-5aab21fc1b74"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗакрытьTestClientПослеЗапускаСценариев" id="de6b8713-da21-4e68-a695-33aa20e47fd3"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ИдетЗаписьВидео" id="df43f9c7-369b-41ea-828e-a66bc43f5b3e"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоГромкостьМузыки" id="e043b8d2-dbcc-4fb5-b564-ee7193aa903d"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоОтключитьМасштабированиеШаговПоВремени" id="e118a624-29f9-4024-a68b-30b4fed9fc45"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоКэшФайловTTS" id="e35793d7-c9ba-42ae-931d-d3745445ea8b"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогОтносительноКоторогоНадоСтроитьИерархию" id="e47f137e-431d-4b4a-a21e-a80430127c1c"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КоличествоСекундПоискаОкна" id="e7f711ca-d445-4ea6-a9b9-e32db1875229"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПрикладыватьКОтчетуAllureДанныеОСостоянииВсехФорм" id="ea10e654-9530-4867-9af8-03995662d9e7"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СохранятьКонтекстыПередВыполнениемШагов" id="edbf9d14-eabd-4f3d-8c3e-e43bd46ad329"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПутьКФайлуДляВыгрузкиСтатусаВыполненияСценариев" id="ee30ca1b-fdc3-4984-ac04-dd8edc757796"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.РежимСамотестирования" id="f0571e8b-752f-4337-90ce-9bffc5a992e0"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоYandexTTSСкорость" id="f2ea2f37-b86d-40e0-b7bb-399b1f7ebfcb"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗаписьВидеоОтключитьСлайдСценария" id="f793c177-78d7-42e9-b239-9954edc5e203"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПаузаМеждуШагамиПриДвиженииМышкиVanessaExt" id="f8710baa-edc4-46d9-abfb-981adb5a22a3"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ПлагиныЗагружены" id="f95221f4-3243-4bbb-bbf2-e0a144a2b77e"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.ЗапускИзКоманднойСтроки" id="fc0a0d99-074d-4e6b-85e9-41981bc3182e"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.КаталогВыгрузкиИнструкцийHTML" id="fc118c0e-9ac9-480a-ae97-95d8cca81e47"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.TestRun" id="fcf15d69-1b78-41f2-a9de-71f1bede3a81"/>
+			<Metadata name="DataProcessor.VanessaAutomation.Attribute.СгенерированныйСценарийКод" id="fdddfbe9-d7f2-4050-a2ec-63997bea4ad0"/>
+		</Metadata>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.SikuliXСервер" id="2c779a98-e746-453c-8dcc-e2c3785bfea3" configVersion="58491b2170bde946a920d722f305a36600000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.SikuliXСервер.Form" id="2c779a98-e746-453c-8dcc-e2c3785bfea3.0" configVersion="bda5427420468545a155853c09f1401800000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ВыборИзвестногоШага" id="ff803d2b-f4d7-43aa-ae2c-52ed4b3e7a37" configVersion="e44e416be6e1dd479a514ca98de8b5c700000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ВыборИзвестногоШага.Form" id="ff803d2b-f4d7-43aa-ae2c-52ed4b3e7a37.0" configVersion="de19344f201ad84fa1f95dfc6c61905800000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ГенераторТестов" id="78879091-4cfb-4209-a23f-577a84bb1909" configVersion="3af4c08ca4a6f549b19bb5b63c11547400000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ГенераторТестов.Form" id="78879091-4cfb-4209-a23f-577a84bb1909.0" configVersion="daf40b3cf1fc3647825702a54bb64aa500000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ДеталиОшибки" id="1496b737-e8b8-453f-a3e8-d45d4c412a83" configVersion="562cc2bb77ce7a44b069fecd38c2715e00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ДеталиОшибки.Form" id="1496b737-e8b8-453f-a3e8-d45d4c412a83.0" configVersion="f5d0abb8e831904bae9a8f9d0f2f221d00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ЗаписьJSON" id="f8ab9b72-2202-4d81-a8c5-f1389f22100f" configVersion="19a64634b2498d4688deade4f33302e100000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ЗаписьJSON.Form" id="f8ab9b72-2202-4d81-a8c5-f1389f22100f.0" configVersion="81123280c4c1914cbe59b75e158fad1500000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ИсследовательФормы" id="4921ab12-47da-4d18-9e4b-7e33d578d2ba" configVersion="f37bce799e1f9348b6be4ce797d397dd00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ИсследовательФормы.Form" id="4921ab12-47da-4d18-9e4b-7e33d578d2ba.0" configVersion="7af3eea516d9054db611e7c4d67c39dd00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ПарсерФич" id="564ee2d9-db70-4268-b209-0ffc47d2ea34" configVersion="a6b07200a2cb284d84ca95857d849a0200000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ПарсерФич.Form" id="564ee2d9-db70-4268-b209-0ffc47d2ea34.0" configVersion="12b981f9fceed24bb9a4aac21a7095ea00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ПодробнаяИнформацияОШаге" id="3c99d80d-9d3e-46ff-b6ac-a9e933b96ea8" configVersion="0b7cac86b4770d47a08b0c44c6fca21300000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.ПодробнаяИнформацияОШаге.Form" id="3c99d80d-9d3e-46ff-b6ac-a9e933b96ea8.0" configVersion="354aa3a5e6e3714498a1880572d4a3cf00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.РаботаСБраузером" id="6d07855b-9494-46cd-8cdf-dcd81b0d9436" configVersion="b825b8b451984d4e810698cbdef470b300000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.РаботаСБраузером.Form" id="6d07855b-9494-46cd-8cdf-dcd81b0d9436.0" configVersion="36b30816ada9494e8fef6fb45a5418a200000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.РаботаСоСтроками" id="1ef354d8-3682-4a93-a93e-c0d511ea3456" configVersion="7abec4f4e631754fabdb3579e8c8ba8f00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.РаботаСоСтроками.Form" id="1ef354d8-3682-4a93-a93e-c0d511ea3456.0" configVersion="0f3a95b19bbd5d4db7e415b69ef9251300000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.РедактированиеТаблицы" id="6bde4147-bbb5-40d8-9ad3-f7807db0dbb1" configVersion="15559579c9fbe34ea420cc4ea44610f800000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.РедактированиеТаблицы.Form" id="6bde4147-bbb5-40d8-9ad3-f7807db0dbb1.0" configVersion="43d548c524f1c24a819be4d40a490afe00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.РедакторТекста" id="8bc4796a-d34f-44fc-9782-649ba1467de9" configVersion="101295bd65785046ac086e5ee442a00a00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.РедакторТекста.Form" id="8bc4796a-d34f-44fc-9782-649ba1467de9.0" configVersion="648533ece0861145b411b530e1655d2500000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.СписокТочекОстанова" id="a5748f3a-c48c-4e90-ace9-61792dae97ae" configVersion="1cadaa3ead7dce40bef19f0672b6370000000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.СписокТочекОстанова.Form" id="a5748f3a-c48c-4e90-ace9-61792dae97ae.0" configVersion="1299b177328d994d89baf29e06373d8f00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.УправлениеОкномКлиентаТестирования" id="310df340-3925-48f5-a959-03b8bf8da8e5" configVersion="0c66fe2a7dd6e5489524bd112553386800000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.УправлениеОкномКлиентаТестирования.Form" id="310df340-3925-48f5-a959-03b8bf8da8e5.0" configVersion="168d046bcf60fc4eb380dd815029c9ca00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.УправляемаяФорма" id="8a6e31ea-f13c-4c95-8d5e-d9639f345b83" configVersion="b791deae73ef884eabaa7493be49937700000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.УправляемаяФорма.Form" id="8a6e31ea-f13c-4c95-8d5e-d9639f345b83.0" configVersion="c0a895393b6c4a4ba69b34a5c97441f500000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.Форма" id="813effc7-9383-4845-a4fa-2f5481e5a12b" configVersion="f113802175525b479dc70f07b3df2a4300000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Form.Форма.Form" id="813effc7-9383-4845-a4fa-2f5481e5a12b.0" configVersion="fc041bca3941b4438f528f667d0963dc00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Help" id="b7c83f94-f33e-4da1-afc4-c38d1e0d918c.1" configVersion="5eb2ddea444c52488d1436c695c453c400000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.ObjectModule" id="b7c83f94-f33e-4da1-afc4-c38d1e0d918c.0" configVersion="2e40991a3e65aa41b39da9ce0bbf573800000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.StopVideoRec" id="bf533244-a667-42c9-843c-26f930a6f362" configVersion="d1e20d632a4718458656ee3ba270306500000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.StopVideoRec.Template" id="bf533244-a667-42c9-843c-26f930a6f362.0" configVersion="1879ed9bc490e9448dfe625af6e53e0600000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.VanessaEditor" id="91383a41-cc19-4ede-b23c-00f9c6fd123f" configVersion="7ad369a36fa13c41b8d58d2fc4dd2df000000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.VanessaEditor.Template" id="91383a41-cc19-4ede-b23c-00f9c6fd123f.0" configVersion="03f0e025de8c404fafee3deb7f172cda00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.WindowCaptureComponent" id="e721923c-ae98-4bf7-9195-dfbd132d9027" configVersion="c134b957431dd046b1ab79fd616bc68d00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.WindowCaptureComponent.Template" id="e721923c-ae98-4bf7-9195-dfbd132d9027.0" configVersion="00bbcb3d0fc8fc478010ea1c2c42f2c600000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.БиблиотекаJavaScript" id="eded4dbd-92a2-4541-b534-bdf7198a2df2" configVersion="ecf9378c4bfec342a6203662eec2bc9200000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.БиблиотекаJavaScript.Template" id="eded4dbd-92a2-4541-b534-bdf7198a2df2.0" configVersion="2cca8ef2c62f534b8b789316edeca3c800000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.МакетСлужебныйКеш" id="ac6460b6-99a2-49ef-ac26-09fb9da7951f" configVersion="0776726c0022f8439335f1fe251a1d0e00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.МакетСлужебныйКеш.Template" id="ac6460b6-99a2-49ef-ac26-09fb9da7951f.0" configVersion="942036c71896bc4bb90acbb85e36888a00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.ОбработкаCompareFiles" id="9c79d7cc-9819-4c93-9fa5-943a70184e55" configVersion="5985f2c8f184364fb5ecb34e524bade000000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.ОбработкаCompareFiles.Template" id="9c79d7cc-9819-4c93-9fa5-943a70184e55.0" configVersion="f06fb39956d63440a0487700408d79f200000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.ОтчетТестирования" id="5c906d2e-8b05-11e5-b599-9cd21ef5a847" configVersion="86f23fac3767a54eb017d7f067f1ce4b00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.ОтчетТестирования.Template" id="5c906d2e-8b05-11e5-b599-9cd21ef5a847.0" configVersion="5b3040be131c4244bdf305f2bbc7569400000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.СхемаAllure" id="80403d53-8ea6-4e9e-aa9d-36939309d3ed" configVersion="037c05e9dd76af4484b1b47cce99ddc700000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.СхемаAllure.Template" id="80403d53-8ea6-4e9e-aa9d-36939309d3ed.0" configVersion="793704e82339384f9552226993ccdf4f00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.ШаблонЖР" id="c35484af-0488-4c01-b9dc-ab634e51b482" configVersion="19b62740038ca84690adaa8b5445086e00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.ШаблонЖР.Template" id="c35484af-0488-4c01-b9dc-ab634e51b482.0" configVersion="49c32785b74c1248a0abc2444d7e741000000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.ШаблонПеревода" id="04165c0c-257d-476c-9a34-7595c2695b76" configVersion="f33d5333175a484f82b5c5d353d61a1f00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.ШаблонПеревода.Template" id="04165c0c-257d-476c-9a34-7595c2695b76.0" configVersion="8c3067c6257f0546a89f1988bde7621300000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.ЭкспортныеСценарии" id="ab944c72-973d-4cf9-a511-6d50749a819c" configVersion="60d9308883397f46873cdaa5adfca0ab00000000"/>
+		<Metadata name="DataProcessor.VanessaAutomation.Template.ЭкспортныеСценарии.Template" id="ab944c72-973d-4cf9-a511-6d50749a819c.0" configVersion="0a911fcbd1be974eab6f140c082f012900000000"/>
+		<Metadata name="DataProcessor.РаботаСТестами" id="c2a6d4ec-a030-4533-a3da-d00ad979f76a" configVersion="09d8b1d29f3a9941826ca05cb971f4b700000000"/>
+		<Metadata name="DataProcessor.РаботаСТестами.Form.Форма" id="781095a4-6a8d-4ddf-88a2-52d962ddee96" configVersion="abfd521882d1ae4288beffe0a18d96c400000000"/>
+		<Metadata name="DataProcessor.РаботаСТестами.Form.Форма.Form" id="781095a4-6a8d-4ddf-88a2-52d962ddee96.0" configVersion="2aa812174c5a594eb078ae89418ba9ac00000000"/>
+		<Metadata name="DataProcessor.РаботаСТестами.Form.ФормированиеЗаданий" id="620911fc-1d3a-4759-8618-6e39a173a95b" configVersion="3b7118bcef135b4b847c3bd73e20776800000000"/>
+		<Metadata name="DataProcessor.РаботаСТестами.Form.ФормированиеЗаданий.Form" id="620911fc-1d3a-4759-8618-6e39a173a95b.0" configVersion="c88fe182baedba4d8c3ef93451c4ec9700000000"/>
+		<Metadata name="DataProcessor.ШАБЛОН_АтоматическоеТестирование" id="94d6b291-d7e9-4011-90f8-e6ba0757a02e" configVersion="0a1bcc9004ea06448392280728fb089b00000000"/>
+		<Metadata name="DataProcessor.ШАБЛОН_АтоматическоеТестирование.Form.Форма" id="e093b17a-36b6-440f-b32f-2fb15b7f9d97" configVersion="f86a705827f0384595bffb5d6331ff0e00000000"/>
+		<Metadata name="DataProcessor.ШАБЛОН_АтоматическоеТестирование.Form.Форма.Form" id="e093b17a-36b6-440f-b32f-2fb15b7f9d97.0" configVersion="6bcd74b17ba69844b0c8bcd7e59a53da00000000"/>
+		<Metadata name="DataProcessor.ШАБЛОН_АтоматическоеТестирование.Form.ФормаТолстая" id="747de74b-07c6-4b77-874a-f205fc1fe7a2" configVersion="eae15fca373b884c9700e344235cdda600000000"/>
+		<Metadata name="DataProcessor.ШАБЛОН_АтоматическоеТестирование.Form.ФормаТолстая.Form" id="747de74b-07c6-4b77-874a-f205fc1fe7a2.0" configVersion="444214f1af910441b0b35eee433d947900000000"/>
+		<Metadata name="InformationRegister.ЗаданияТестирования" id="4dafa5de-f8d0-492c-8f61-96d23646e0b6" configVersion="185b055792cb4843a0c735e5f363c98c00000000">
+			<Metadata name="InformationRegister.ЗаданияТестирования.Resource.Ошибки" id="24ab31d3-7eea-41f5-92fd-1b33113dc847"/>
+			<Metadata name="InformationRegister.ЗаданияТестирования.Resource.РазультатТестирования" id="8ef0bbef-225e-4c14-80e7-adce969d0164"/>
+			<Metadata name="InformationRegister.ЗаданияТестирования.Resource.НачалоТестирования" id="9d13cd91-f8b0-4fae-a0c4-dde760d29105"/>
+			<Metadata name="InformationRegister.ЗаданияТестирования.Resource.Порт" id="a8d91e03-47f2-46a9-bf32-54eabf742a6e"/>
+			<Metadata name="InformationRegister.ЗаданияТестирования.Resource.ОкончаниеТестирования" id="b5a043c1-34c3-4d0a-a465-63d30a63f9f5"/>
+			<Metadata name="InformationRegister.ЗаданияТестирования.Resource.ИнформационнаяБаза" id="e8db67bf-775d-4ea5-9c9c-506a6277e10b"/>
+			<Metadata name="InformationRegister.ЗаданияТестирования.Dimension.УИД" id="fa95cc7f-a1c3-4b3a-aaff-2a147f3043cc"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ЗаданияТестирования.Form.ФормаЗаписи" id="8c360f34-97a8-4a71-898e-826e791de4a7" configVersion="60f589a3b93cd74c8bb200adcedb0a5500000000"/>
+		<Metadata name="InformationRegister.ЗаданияТестирования.Form.ФормаЗаписи.Form" id="8c360f34-97a8-4a71-898e-826e791de4a7.0" configVersion="014ae3d85f3ef9459d7a63560fe9c36800000000"/>
+		<Metadata name="InformationRegister.ЗаданияТестирования.ManagerModule" id="4dafa5de-f8d0-492c-8f61-96d23646e0b6.2" configVersion="ddc0b08df6404a47a70406fc9338d72900000000"/>
+		<Metadata name="InformationRegister.ЗаданияТестирования.RecordSetModule" id="4dafa5de-f8d0-492c-8f61-96d23646e0b6.1" configVersion="bc76426aba1e04408bb4974f2044f26100000000"/>
+		<Metadata name="InformationRegister.СоставЗаданийТестирования" id="c752e42b-ed60-443f-9ac9-d31353a0f73a" configVersion="82039db305b0db44a579f9937d25830e00000000">
+			<Metadata name="InformationRegister.СоставЗаданийТестирования.Dimension.Порядок" id="124b6715-1664-4b89-96a2-8d2b2418ac65"/>
+			<Metadata name="InformationRegister.СоставЗаданийТестирования.Dimension.УИД" id="6228f6bb-0e58-417c-ac07-11d9e2f5c701"/>
+			<Metadata name="InformationRegister.СоставЗаданийТестирования.Resource.АлгоритмТестирования" id="c09882ea-e5b7-4a5f-a4ab-55422674b023"/>
+			<Metadata name="InformationRegister.СоставЗаданийТестирования.Resource.Количество" id="e13ef967-c15d-4a59-ae8e-9678c27b4c58"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="3aa41972-fead-44a2-9805-f04c38c168ae" configVersion="a26d90286e3c784ba415d5590f6378ed00000000"/>
+		<Metadata name="Role.ПолныеПрава" id="18c4188f-1b41-449b-a251-c839a4fc0f2a" configVersion="41ae3386499ff64e9308a7cc5e23c10d00000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="18c4188f-1b41-449b-a251-c839a4fc0f2a.0" configVersion="92b33d23b3294a48a3584d92bb0b552a00000000"/>
+		<Metadata name="Subsystem.Тестирование" id="2dfe31ac-19c5-424b-851e-6de24d9ba34c" configVersion="3ca05bb601a64849bdce33fc50c162fd00000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
