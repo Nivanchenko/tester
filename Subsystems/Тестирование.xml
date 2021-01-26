@@ -29,6 +29,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.VanessaAutomation</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ШАБЛОН_АтоматическоеТестирование</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Constant.ВремяОжиданияЗапускаКлиента</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ШаблоныСценариев</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Constant.НачальныйПортКлиента</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

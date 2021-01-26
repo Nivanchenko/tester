@@ -188,8 +188,10 @@
 			<Constant>МенеджерТестированияПароль</Constant>
 			<Constant>ИсполняемыйФайл1С</Constant>
 			<Constant>ВремяОжиданияЗапускаКлиента</Constant>
+			<Constant>НачальныйПортКлиента</Constant>
 			<Catalog>ИнформационныеБазы</Catalog>
 			<Catalog>АлгоритмыТестирования</Catalog>
+			<Catalog>ШаблоныСценариев</Catalog>
 			<DataProcessor>РаботаСТестами</DataProcessor>
 			<DataProcessor>UILogToScript</DataProcessor>
 			<DataProcessor>VanessaAutomation</DataProcessor>
